@@ -1,0 +1,14 @@
+/* Importaciones */
+    @import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu');
+/* Reglas Generales */
+    *{
+        box-sizing: border-box;
+        font-family: 'Ubuntu', 'Century Gothic', sans-serif;
+        scroll-behavior: smooth;
+    }
+
+/* Pantallas Pequeñas */
+
+/* Pantallas Medianas */
+
+/* Pantallas Grandes */
