@@ -13,3 +13,11 @@ logs/
 *.docx
 log*.md
 blame*.md
+
+#modulos
+node_modules/
+libs/
+libraries/
+vendor/
+composer/
+*.docker
