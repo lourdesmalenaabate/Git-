@@ -14,12 +14,19 @@
     table caption{
         border-radius: .25rem .25rem 0 0;
     }
+    table caption,
     th,
     td{
         padding: .5rem 1rem;
     }
     /* Colaboradores */
-
+    .colabs caption{
+        background-color: #c36;
+    }
+    .colabs{
+        color: #eee;
+        background: linear-gradient(#c36, #448);
+    }
 /* Pantallas Pequeñas */
 
 /* Pantallas Medianas */
