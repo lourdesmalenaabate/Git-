@@ -28,6 +28,7 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 |**@JacquetDamian**|*Formulario / estilo*|
 |**@maimazzei**|**|
 |**@oscarmumm**|*nav / estilo*|
+|**@XGerard**|*Contenido*|
 
 
 ## Contacto
