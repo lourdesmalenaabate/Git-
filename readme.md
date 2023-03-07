@@ -25,7 +25,7 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 |**@freddy-frontado**|**|
 |**@JacquetDamian**|**|
 |**@maimazzei**|**|
-|**@oscarmumm**|**|
+|**@oscarmumm**|*nav / estilo*|
 
 
 ## Contacto
