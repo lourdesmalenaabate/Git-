@@ -6,6 +6,19 @@
         font-family: 'Ubuntu', 'Century Gothic', sans-serif;
         scroll-behavior: smooth;
     }
+    /* Tablas */
+    table{
+        max-width: 720px;
+        margin: auto;
+    }
+    table caption{
+        border-radius: .25rem .25rem 0 0;
+    }
+    th,
+    td{
+        padding: .5rem 1rem;
+    }
+    /* Colaboradores */
 
 /* Pantallas Pequeñas */
 
