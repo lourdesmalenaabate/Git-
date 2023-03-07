@@ -12,6 +12,22 @@ Cuando trabajamos con GIT debemos tener en cuenta las areas que componen a esta 
 
 ---
 
+## Colaboradores
+
+Este es un trabajo realizado de manera colaborativa para poner en practica lo aprendido durante la capacitacion.
+
+En la siguiente tabla se muestran las personas que participaron del proyecto y que tarea realizo cada uno:
+
+|Usuario|Tarea|
+|-|-|
+|**@c215714n**|**|
+|**@evelyndisa**|**|
+|**@freddy-frontado**|**|
+|**@JacquetDamian**|**|
+|**@maimazzei**|**|
+|**@oscarmumm**|**|
+
+
 ## Contacto
 
 Pueden acceder a la [Alumni](https://alumni.education) para ver los contenidos de la capacitacion, las clases grabadas, realizar ejercicios de laboratorio y examenes. 
