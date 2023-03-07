@@ -14,12 +14,25 @@
     table caption{
         border-radius: .25rem .25rem 0 0;
     }
+    table caption,
     th,
     td{
         padding: .5rem 1rem;
     }
     /* Colaboradores */
-
+    .colabs{
+        border-collapse: collapse;
+    }
+    .colabs caption,
+    .colabs th,
+    .colabs td{
+        border: 2px solid #448;
+    }
+    .colabs caption{
+        color: #eee;
+        background-color: #448;
+        border-bottom: none;
+    }
 /* Pantallas Pequeñas */
 
 /* Pantallas Medianas */
