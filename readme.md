@@ -22,8 +22,8 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 |-|-|
 |**@c215714n**|**|
 |**@evelyndisa**|**|
-|**@freddy-frontado**|*redes sociales / formulario*|
-|**@JacquetDamian**|**|
+|**@freddy-frontado**|**|
+|**@JacquetDamian**|*Formulario / estilo*|
 |**@maimazzei**|**|
 |**@oscarmumm**|*nav / estilo*|
 
