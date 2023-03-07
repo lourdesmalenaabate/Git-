@@ -20,7 +20,7 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 
 |Usuario|Tarea|
 |-|-|
-|**@c215714n**|**|
+|**@c215714n**|*colaboradores / estilos*|
 |**@evelyndisa**|*contenido / estilos*|
 |**@freddy-frontado**|**|
 |**@maimazzei**|*pie de pagina*|
