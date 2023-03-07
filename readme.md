@@ -23,8 +23,8 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 |**@c215714n**|**|
 |**@evelyndisa**|*contenido / estilos*|
 |**@freddy-frontado**|**|
+|**@maimazzei**|*pie de pagina*|
 |**@JacquetDamian**|*Formulario / estilo*|
-|**@maimazzei**|**|
 |**@oscarmumm**|*nav / estilo*|
 |**@XGerard**|*Contenido*|
 
