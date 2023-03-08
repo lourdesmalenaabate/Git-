@@ -10,6 +10,15 @@ Cuando trabajamos con GIT debemos tener en cuenta las areas que componen a esta 
 * __Staging Area (INDEX):__ El area de control de cambios es la encargada de identificar los archivos a los que vamos a realizarle seguimiento, tambien es donde se realizan las capturas de codigo (SNAPSHOT).
 * __Repository:__ El almacen de cambios es donde se encuentra las capturas confirmadas, en archivos BLOB (Binary Large Object), a las que podemos acceder en cualquier momento para visualizar los cambios.
 
+## Apuntadores
+
+Son referencias que permiten al usuario navegar dentro de historial de confirmaciones, ademas que facilitan la identificacion de ciertos puntos dentro del registro de cambios. Entre los punteros que exiten en git podemos identificar los siguientes:
+
+* __HEAD:__ Apuntador Movil que indica donde nos encontramos dentro de historial de confirmaciones, ademas sirve como referencia para desplazarse dentro del mismo.
+* __BRANCH:__ Apuntador Dinamico que siempre se corresponde con el ultimo commit de la historia actual, se utiliza como referencia cuando necesitamos ir hacia adelante.
+* __TAG:__ Apuntador Estatico que se corresponde con un commit en concreto y se utiliza para el versionado del proyecto y facilitar la navegacion a ciertos puntos de la historia.
+* __STASH:__ Apuntador de la Zona Temporal de cambios, se utiliza cuando debemos cambiar entre ramas, pero tenemos trabajo en progreso y no amerita un commmit, genera una referencia.
+
 ---
 
 ## Colaboradores
