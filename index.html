@@ -10,15 +10,28 @@
 </head>
 <body>
     <!-- Cabecera -->
-    <header id="header">
+    <header class="header" id="header">
+
+        <!-- Boton menu (visible en movil) -->
+        <button class="btn-menu" id="btn-menu">
+            <img src="/assets/icons/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
         <!-- Encabezado -->
         <h1>Bienvenidos a GIT</h1>
         <!-- Galeria -->
 
     </header>
     <!-- Navegacion -->
-    <nav id="nav">
+    <nav class="nav close-nav" id="nav">
+        <a href="#introduccion">Introduccion</a>
+        <a href="#acerca">Acerca</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
 
+        <button class="btn-close-nav " id="btn-close-nav">
+            <img src="/assets/icons/arrow_back_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
     </nav>
     <!-- Contenido -->
     <main>
@@ -89,6 +102,6 @@
 
     </footer>
     <!-- Scripts -->
-
+    <script src="app/app.js"></script>
 </body>
 </html>

@@ -57,9 +57,79 @@
     .colabs tbody tr:nth-child(even){
         background-color: hsla(0,0%,40%,.3);
     }
+    /* Header */
+    .header {
+        width: 100vw;
+        text-align: center;
+    }
+    .btn-menu {
+        position: fixed;
+        top: 1rem;
+        left: .5rem;
+        background: none;
+        border: none;
+    }
+    /* Nav */
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 90vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        background: linear-gradient(#c36, #448);
+        border-radius: 0 40px 40px 0;
+    }
+    .nav a {
+        text-decoration: none;
+        color: #fff;
+        padding: 1rem;
+        border-radius: 10px;
+    }
+    .btn-close-nav {
+        position: relative;
+        bottom: 0;
+        left: 0;
+        margin: 1rem;
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+    .btn-close-nav {
+        filter: invert(1);
+    }
+    .open-nav {
+        margin-left: 0;
+        transition: margin ease 500ms;
+    }
+    .close-nav {
+        margin-left: -90vw;
+        transition: margin ease 500ms;
+    }
 
 /* Pantallas Pequeñas */
 
 /* Pantallas Medianas */
-
+@media screen and (min-width: 576px) {
+    .nav {
+        position: relative;
+        margin: 0;
+        width: 100%;
+        border-radius: 10px;
+        height: 10vh;
+        flex-direction: row;
+    }
+    .btn-close-nav {
+        display: none;
+    }
+    .btn-menu {
+        display: none;
+    }
+    .nav a:hover {
+        background-color: rgba(255, 255, 255, 0.25);
+    }
+}
 /* Pantallas Grandes */
