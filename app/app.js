@@ -23,11 +23,21 @@ const
 
 // Eventos
 mapButton.onclick = function(event){
-  if(mapFrame.classList.toggle('active')){
-    event.target.classList.replace('icon-plus','icon-less');
-  }
-  else {
-    event.target.classList.replace('icon-less', 'icon-plus');
-  }
+  toggle( {
+    button: event.target,
+    target: mapFrame,
+    classList: ['icon-plus','icon-less'],
+  } )
 }
 //# Mapa de Contacto
+
+// Funciones
+function toggle(object){
+  const { button, target, classList } = object;
+  if(target.classList.toggle('active')){
+    button.classList.replace(classList[0],classList[1]);
+  }
+  else {
+    button.classList.replace(classList[1], classList[0]);
+  }
+}
