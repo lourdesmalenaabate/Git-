@@ -51,6 +51,13 @@
     .icon-less::before{
         content: '-';
     }
+    /* Agrandar Mapa */
+    .map.active,
+    .map + .btn.icon-less{
+        position: fixed;
+        z-index: 2;
+        opacity: .9;
+    }
     /* Repositorios */
     .social{
         display: flex;
