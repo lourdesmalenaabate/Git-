@@ -11,7 +11,11 @@
         overflow-x: hidden;
     }
     /* Contenido */
-
+    main{
+        max-width: 1140px;
+        margin: .5rem auto;
+        padding: .5rem;
+    }
     .card{
         max-width: 960px;
         margin: 1rem auto;
