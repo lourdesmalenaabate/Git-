@@ -5,14 +5,18 @@ const btnCloseNav = document.getElementById("btn-close-nav");
 const nav = document.getElementById("nav");
 
 btnMenu.addEventListener('click', () => {
-  nav.classList.toggle('open-nav');
-  nav.classList.toggle('close-nav');
+  toggle({
+    target: nav,
+    button: nav,
+    classList: ['open-nav', 'close-nav']
+  })
 });
 
-btnCloseNav.addEventListener('click', () => {
-  nav.classList.toggle('open-nav');
-  nav.classList.toggle('close-nav');
-})
+btnCloseNav.addEventListener('click', () => toggle({
+  target: nav,
+  button: nav,
+  classList: ['open-close', 'close-open']
+}))
 
 //# Mapa de Contacto
 // Declaraciones
