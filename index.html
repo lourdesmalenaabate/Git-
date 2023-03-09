@@ -60,6 +60,22 @@
                     <li><strong>rm -rf .git</strong> elimina el repositorio de git</li>
                 </ul>
             </div>
+            <div class="card">
+                <h3>Staging Area (INDEX)</h3>
+                <p>
+                    El area de control de cambios es la encargada de identificar los archivos a los que vamos a realizarle seguimiento, tambien es donde se realizan las capturas de codigo (SNAPSHOT).
+                </p>
+                <p>
+                    Aqui estaremos utilizando la linea de comandos con mas frecuencia y generaremos las capturas para poder comparar y reestablecer nuestros archivos, utilizando los siguiente comandos:
+                </p>
+                <ul class="commands">
+                    <li><strong>git status</strong> muestra el estado de los archivos con respecto al INDEX</li>
+                    <li><strong>git diff</strong> compara el contenido del Working directory con el Staging Area</li>
+                    <li><strong>git add &lt;file></strong> Agrega los archivos al Area de control de Cambios</li>
+                    <li><strong>git restore --staged &lt;file></strong> Reestablecer el archivo a como se encontraba en la ultima captura</li>
+                    <li><strong>git rm --cached &lt;file></strong> Elimina el archivo del Staging Area</li>
+                </ul>
+            </div>
         </section>
         <!-- Acerca -->
 
