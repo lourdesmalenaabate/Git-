@@ -158,7 +158,14 @@
     }
     /* Header */
     .header {
+        min-height: min(640px, calc(100vh - 3rem));
+        display: grid;
+        align-content: center;
         text-align: center;
+        font-size: min(calc(.5rem + 2vw), 5rem);
+        color: #eee;
+        text-shadow: 0 0 .5rem;
+        background: linear-gradient(#333, #666);
     }
     .btn-menu {
         position: fixed;
