@@ -133,3 +133,13 @@
     }
 }
 /* Pantallas Grandes */
+.introduccion{
+    max-width: 1000px;
+    margin: auto;
+}
+.accordion{
+    width: 75%;
+}
+.componente-introduccion{
+    margin-top: 15px;
+}

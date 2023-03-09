@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instalacion</title>
+    <link rel="stylesheet" href="styles/default.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="header" id="header">
+
+        <!-- Boton menu (visible en movil) -->
+        <button class="btn-menu" id="btn-menu">
+            <img src="/assets/icons/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
+        <!-- Encabezado -->
+        <h1>Bienvenidos a GIT</h1>
+        <!-- Galeria -->
+
+    </header>
+    <!-- Navegacion -->
+    <nav class="nav close-nav" id="nav">
+        <a href="index.html">Inicio</a>
+        <a href="instalar.html">Instalacion</a>
+        <a href="#productos">Productos</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+
+        <button class="btn-close-nav " id="btn-close-nav">
+            <img src="/assets/icons/arrow_back_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
+    </nav>
+    <!-- Contenido -->
+    <main class="introduccion"> 
+        <section class='componente-introduccion'>
+            <h2>Instalar Git</h2>
+            <p>
+                La instalación de Git es muy sencilla, de hecho en la mayoría de las ocasiones se trata simplemente de instalarlo con el típico programa de instalación de software.
+                Para instalar Git hay que ir a la <a href="https://git-scm.com/">página oficial de Git</a>. A partir de ahí, el proceso proceso depende del sistema operativo con el que estemos trabajando. Para los sistemas más importantes es el siguiente.
+            </p>
+            <ol>
+                  <div class="accordion" id="accordionExample">
+                    <div class="accordion-item accordion">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Linux
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En el caso de Linux, la mayoría de distribuciones ya tienen Git instalado de manera predeterminada. No tenemos que hacer nada en concreto.
+                            En Linux o cualquier otro sistema donde quieras saber si Git ya está instalado es lanzar este comando:
+                            <code> git --version</code>.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item accordion">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Windows
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            En Windows Git se instala por medio de un instalador. No hay más que seguir el asistente y tendremos ya disponible el comando "git" en nuestro terminal.
+                            Los usuarios de Windows durante la instalación de Git tienen la opción de instalar Git Bash, que es un programa de terminal de línea de comandos muy recomendable. Git Bash es un terminal basado en Bash que por tanto tiene un juego de comandos como el de Linux. Es interesante instalarlo si te dedicas al desarrollo, ya que es mucho más adecuado que el terminal que viene instalado por defecto en Windows. No obstante, existen muchas alternativas de terminales también útiles para desarrollo
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item accordion">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Mac
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Instalación de Git en Mac
+                            El instalador para Mac también se realiza mediante la descarga proporcionada en el sitio oficial. Aunque algunas versiones recientes de MacOS ya tienen Git disponible de casa.
+                            
+                            Además, para la instalación en Mac existen otras alternativas que merece la pena comentar.
+                            
+                            1.- Con xcode command line tools Esto no es el xcode completo, solo algunos comandos que son útiles para desarrolladores. Desde la terminal ecribes:
+                            <code> xcode-select --install </code>. <br>
+                            2.- Instalar Git con Homebrew Esto es un instalador de paquetes para MacOS muy útil, más tarde o temprano lo necesitarás para instalar muchas cosas. Una vez instalado Homebrew lanzas el comando
+                            <code>brew install git</code>.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </ol>
+         </section>
+         <section class="componente-introduccion">
+            <h2>Configuración inicial de Git</h2>
+            <p>En el momento que acabamos de instalar Git es necesario realizar una primera configuración en la que informaremos a Git sobre quién somos y cuál es nuestro email, que usará para firmar las confirmaciones de código que realicemos.
+
+                Para hacer esta configuración inicial debemos lanzar los comandos siguientes:
+            </p>
+            <code>git config --global user.name "Tu nombre"</code>
+            <br>
+            <code>git config --global user.email "tu_email@example.com"</code>
+
+         </section>
+        
+    </main>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
