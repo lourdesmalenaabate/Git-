@@ -36,9 +36,72 @@
     <!-- Contenido -->
     <main>
         <!-- Introduccion -->
-
+        <section id="introduccion">
+            <h2>Introduccion</h2>
+            <p>
+                GIT es un sistema de control de versiones <strong>desarrollado por Linus Torlvalds</strong> debido a que necesitaba llevar un registro de los cambios que realizaba en el Kernel de Linux. El mismo funciona como un <em>Grafo Dirigido Aciclico</em>, es decir, que utiliza vertices(nodos) y aristas para definir la relacion que exite entre cada uno de los objetos del repositorio, que solamente apuntan hacia atras.
+            </p>
+            <p>
+                Para trabajar con GIT debemos tener en cuenta que este se divide en diferentes areas, que vamos a estar utilizando segun la etapa en la que nos encontremos trabajando.
+            </p>
+            <div class="card">
+                <h3>Working Directory</h3>
+                <p>
+                    El area de trabajo corresponde a la carpeta donde inicializamos el respositorio, es tambien el lugar donde vamos a crear, editar y eliminar los diferentes archivos y carpetas del proyecto.
+                </p>
+                <p> 
+                    Si bien vamos a estar utilizando la consola circunstancialmente, algunos de los comandos que podemos llegar a utilizar en esta area son los siguientes:
+                </p>
+                <ul class="commands">
+                    <li><strong>dir || ls</strong> muestra en contenido de la carpeta actual</li>
+                    <li><strong>mkdir &lt;name></strong> crea una carpeta con el nombre indicado</li>
+                    <li><strong>cd &lt;path></strong> abre el directorio seleccionado</li>
+                    <li><strong>git init</strong> inicializa un repositorio en la carpeta actual</li>
+                    <li><strong>rm -rf .git</strong> elimina el repositorio de git</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Staging Area (INDEX)</h3>
+                <p>
+                    El area de control de cambios es la encargada de identificar los archivos a los que vamos a realizarle seguimiento, tambien es donde se realizan las capturas de codigo (SNAPSHOT).
+                </p>
+                <p>
+                    Aqui estaremos utilizando la linea de comandos con mas frecuencia y generaremos las capturas para poder comparar y reestablecer nuestros archivos, utilizando los siguiente comandos:
+                </p>
+                <ul class="commands">
+                    <li><strong>git status</strong> muestra el estado de los archivos con respecto al INDEX</li>
+                    <li><strong>git diff</strong> compara el contenido del Working directory con el Staging Area</li>
+                    <li><strong>git add &lt;file></strong> Agrega los archivos al Area de control de Cambios</li>
+                    <li><strong>git restore --staged &lt;file></strong> Reestablecer el archivo a como se encontraba en la ultima captura</li>
+                    <li><strong>git rm --cached &lt;file></strong> Elimina el archivo del Staging Area</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Repository(Local/Remote)</h3>
+                <p>
+                    El almacen de cambios es donde se encuentra las capturas confirmadas, en archivos BLOB (Binary Large Object), a las que podemos acceder en cualquier momento para visualizar los cambios.
+                </p>
+                <p>
+                    Podemos realizar una gestion local o agregar una direccion remota a la cual subir o solicitar el historial de confirmaciones, con algunos de los siguientes comandos:
+                </p>
+                <ul class="commands">
+                    <li><strong>git log</strong> muestra el historial de confirmaciones del repositorio</li>
+                    <li><strong>git commit</strong> confirma las capturas realizadas</li>
+                    <li><strong>git blame &lt;file></strong> muestra los autores de cada linea de un archivo</li>
+                    <li><strong>git remote add &lt;alias> &lt;URL></strong> agrega un repositorio remoto</li>
+                    <li><strong>git fetch</strong> descarga el historial de confirmaciones del remotos</li>
+                    <li><strong>git pull</strong> descargas e integra los cambios del repositorio remoto</li>
+                    <li><strong>git push</strong> envia al repositorio remoto el historial de confirmaciones</li>
+                </ul>
+            </div>
+        </section>
         <!-- Acerca -->
-
+        <section>
+            <h2>Acerca</h2>
+            <p>
+                
+            </p>
+        </section>
         <!-- Productos -->
 
         <!-- Servicios -->
@@ -47,7 +110,12 @@
     <!-- Pie de pagina -->
     <footer id="footer">
         <!-- Mapa de Contacto -->
-
+        <iframe class="cover map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.070111678323!2d-58.37812478523344!3d-34.60238856493399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc473596c3%3A0x568d6d5f7f1f535d!2sEducaci%C3%B3nIT!5e0!3m2!1ses-419!2sar!4v1678381999060!5m2!1ses-419!2sar"
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <button class="btn map icon-plus" title="agrandar/achicar mapa"></button>
         <!-- Repositorios -->
         <div class="social repo">
             <a href="https://github.com/c215714n/git-mj14" target="_blank" title="github"></a>
