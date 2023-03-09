@@ -9,6 +9,7 @@ Cuando trabajamos con GIT debemos tener en cuenta las areas que componen a esta 
 * __Working Directory:__ El area de trabajo corresponde a la carpeta donde inicializamos el respositorio, es tambien el lugar donde vamos a crear, editar y eliminar los diferentes archivos y carpetas del proyecto.
 * __Staging Area (INDEX):__ El area de control de cambios es la encargada de identificar los archivos a los que vamos a realizarle seguimiento, tambien es donde se realizan las capturas de codigo (SNAPSHOT).
 * __Repository:__ El almacen de cambios es donde se encuentra las capturas confirmadas, en archivos BLOB (Binary Large Object), a las que podemos acceder en cualquier momento para visualizar los cambios.
+REALIZO MODIFICACION EN ESTE TEXTO!!
 
 ## Apuntadores
 
@@ -32,7 +33,7 @@ En la siguiente tabla se muestran las personas que participaron del proyecto y q
 |**@c215714n**|*colaboradores / estilos*|
 |**@evelyndisa**|*contenido / estilos*|
 |**@freddy-frontado**|**|
-|**@maimazzei**|*pie de pagina*|
+|**@maimazzei**|*pie de pagina-REALIZO MODIFICACIOÓN EN ESTA LÍNEA*|
 |**@JacquetDamian**|*Formulario / estilo*|
 |**@oscarmumm**|*nav / estilo*|
 |**@XGerard**|*Contenido*|
