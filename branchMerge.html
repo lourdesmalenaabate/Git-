@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles/default.css">
+</head>
+<body>
+    <!-- Cabecera -->
+    <header class="header" id="header">
+
+        <!-- Boton menu (visible en movil) -->
+        <button class="btn-menu" id="btn-menu">
+            <img src="/assets/icons/menu_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
+        <!-- Encabezado -->
+        <h1>Bienvenidos a GIT</h1>
+        <!-- Galeria -->
+
+    </header>
+    <!-- Navegacion -->
+    <nav class="nav close-nav" id="nav">
+        <a href="index.html">Inicio</a>
+        <a href="instalar.html">Instalacion</a>
+        <a href="branchMerge.html">Ramificar y Fusionar</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+
+        <button class="btn-close-nav " id="btn-close-nav">
+            <img src="/assets/icons/arrow_back_FILL0_wght400_GRAD0_opsz48 (1).svg" alt="">
+        </button>
+    </nav>
+    <!-- Contenido -->
+    <main>
+        <h1>Ramificar y Fusionar / Branching and Merging</h1>
+        <div>
+            <h3 class="titulo1">Rama | Branch</h3>
+            <p>
+                En Git, las ramas son parte del proceso de desarrollo diario. Las ramas de Git son un puntero eficaz para las instantáneas de tus cambios. Cuando quieres añadir una nueva función o solucionar un error, independientemente de su tamaño, generas una nueva rama para alojar estos cambios.
+            </p>
+            <ul class="comando">
+                <li><strong>git branch nuevaRama</nombre></strong> muestra en contenido de la carpeta actual</li>
+                <li><strong>git checkout nuevaRama</strong> crea una carpeta con el nombre indicado</li>
+                <li><strong>git checkout -b</strong> crea una rama y te cambia a esa rama</li>
+                <li><strong>git branch -d</nombre></strong>elimina una rama</li>
+                <li><strong>git branch -a</nombre></strong>podemos vel todas las ramas remotas que no estan locales
+                </li>
+            </ul>
+        </div>
+        <div>
+            <h3 class="titulo2">Fusionar | Merge</h3>
+            <p>
+                El merge permite tomar las líneas independientes de desarrollo creadas por git branch e integrarlas en una sola rama.
+            </p>
+            <ul class="comando">
+                <li><strong>git merge</nombre></strong> se utiliza para fusionar uno o más ramas dentro de la rama que tienes activa. </li>
+            </ul>
+        </div>
+        <h3>Resolución de conflicto</h3>
+        <p>Si las dos ramas que tratas de fusionar han cambiado la misma parte del mismo archivo, Git no podrá averiguar qué versión utilizar. Cuando esto ocurre, Git se detiene justo antes de la confirmación de fusión para que puedas resolver los conflictos manualmente.
+
+            Algo muy interesante del proceso de fusión de Git es que utiliza el conocido flujo de trabajo de edición, preparación y confirmación para resolver los conflictos de fusión. Cuando se observa un conflicto de fusión, la ejecución del comando git status muestra qué archivos se deben resolver.</p>
+        <h3>Cómo se presentan los conflictos</h3>
+        <p>Si Git encuentra un conflicto durante una fusión, editará el contenido de los archivos afectados con indicadores visuales que marquen ambas caras del contenido conflictivo. Estos marcadores visuales son: <<<<<<<, =======, y>>>> >>>. Es útil buscar estos indicadores en un proyecto durante una fusión para saber dónde hay que resuelto los conflictos.
+        </p>
+        <p>Normalmente, el contenido que se encuentra delante del marcador ======= es la rama de recepción y el de la parte de detrás es la rama de fusión.
+        </p>
+        <p>Una vez identificadas las secciones conflictivas, puedes entrar y arreglar la fusión a tu gusto. Cuando estés listo para terminar la fusión, lo único que tienes que hacer es ejecutar git add en los archivos conflictivos para indicar a Git que se han resuelto. Seguidamente, ejecutas un git commit normal para generar la confirmación de fusión. El proceso es exactamente el mismo que el de la confirmación de una instantánea normal, lo que significa que es fácil para los desarrolladores habituales gestionar sus propias fusiones.
+
+        </p>
+
+        </main>
+    <footer id="footer">
+        <!-- Mapa de Contacto -->
+        <iframe class="cover map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.070111678323!2d-58.37812478523344!3d-34.60238856493399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccacc473596c3%3A0x568d6d5f7f1f535d!2sEducaci%C3%B3nIT!5e0!3m2!1ses-419!2sar!4v1678381999060!5m2!1ses-419!2sar"
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        <button class="btn map icon-plus" title="agrandar/achicar mapa"></button>
+        <!-- Repositorios -->
+        <div class="social repo">
+            <a href="https://github.com/c215714n/git-mj14" target="_blank" title="github"></a>
+            <a href="https://gitlab.com/c215714n/git-mj14" target="_blank" title="gitlab"></a>
+            <a href="https://bitbucket.org/c215714n/git-mj14" target="_blank" title="bitbucket"></a>
+        </div>
+        <!-- Colaboradores -->
+        <table class="colabs">
+            <caption>Colaboradores</caption>
+            <thead>
+                <tr>
+                    <th>Usuario</th>
+                    <th>Nombre</th>
+                    <th>Correo</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>C215714N</td>
+                    <td>Cristian Racedo</td>
+                    <td>CristianDRacedo@hotmail.com</td>
+                </tr>
+                <tr>
+                    <td>evelyndisa</td>
+                    <td>Evelyn Di Salvo</td>
+                    <td>evelyndisa@icloud.com</td>
+                </tr>
+                <tr>
+                    <td>freddy-frontado</td>
+                    <td>Freddy Frontado</td>
+                    <td>frontadodev@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>maimazzei</td>
+                    <td>MaríaMazzei</td>
+                    <td>mariamazzeiqa@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>oscarmumm</td>
+                    <td>Oscar Mumm</td>
+                    <td>oscarmumm@gmail.com</td>
+                </tr>
+                <!-- Ingrese sus datos -->
+                
+            </tbody>
+        </table>
+        <!-- Formulario -->
+        <section class="section-form">
+            <form id= "form" name="formulario" method="post" class="form">   
+                <label for="name">Nombre Completo</label>
+                <input name="name" type="text" id="name" placeholder="Ingrese su nombre">
+                <label for="email">Correo electronico</label>
+                <input name="email" type="email" id="email" placeholder="Ingrese su email">
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Ingrese su mensaje"></textarea>
+                <button type="submit" class="btn primary full"> Enviar </button>   
+    
+            </form>
+        </section>
+        <!-- Redes sociales -->
+
+        <!-- Derechos de Autor -->
+
+    </footer>
+</body>
+</html>
